@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.bg-pattern-left {
+  position: absolute;
+  top: -250px;
+  left: -100px;
+  width: 500px;
+  height: auto;
+  z-index: -1;
+  transform: rotate(-14deg);
+  transform-origin: top left;
+}
+
+.bg-pattern-right {
+  position: absolute;
+  top: -250px;
+  right: -250px;
+  width: 500px;
+  height: auto;
+  z-index: -1;
+  transform: rotate(14deg);
+  transform-origin: top right;
+}
+
+hr.h-line {
+  opacity: 100;
+}

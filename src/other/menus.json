@@ -1,0 +1,94 @@
+[
+    { 
+      "id": "01", 
+      "title": "ภาพรวม", 
+      "icon": "home-a-icon.png",
+      "icon_active": "home-w-icon.png", 
+      "to": "", 
+      "gap": "",
+      "submenu": false,
+      "submenuItems": null
+    },
+    { 
+      "id": "02", 
+      "title": "น่าสนใจ", 
+      "icon": "star-a-icon.png", 
+      "icon_active": "star-w-icon.png",
+      "to": "interesting", 
+      "gap": "",
+      "submenu": false,
+      "submenuItems": null
+    },
+    { 
+      "id": "03", 
+      "title": "การลงทุน", 
+      "icon": "economy-a-icon.png", 
+      "icon_active": "economy-w-icon.png",
+      "submenu": true,
+      "submenuItems": [
+        { 
+          "id": "03_1", 
+          "title": "หุ้นอเมริกา", 
+          "icon": "stock-a-icon.png", 
+          "icon_active": "stock-w-icon.png",
+          "to": "amarica-stocks", 
+          "gap": "",
+          "submenu": false,
+          "submenuItems": null
+        },
+        { 
+          "id": "03_2", 
+          "title": "กองทุนรวม", 
+          "icon": "businessman-a-icon.png", 
+          "icon_active": "businessman-w-icon.png",
+          "to": "mutual-funds", 
+          "gap": "",
+          "submenu": false,
+          "submenuItems": null
+        },
+        { 
+          "id": "03_3", 
+          "title": "เงินฝาก", 
+          "icon": "money-a-icon.png",
+          "icon_active": "money-w-icon.png", 
+          "to": "deposit", 
+          "gap": "",
+          "submenu": false,
+          "submenuItems": null
+        },
+        { 
+          "id": "03_4", 
+          "title": "ตราสารหนี้", 
+          "icon": "debenture-a-icon.png",
+          "icon_active": "debenture-w-icon.png", 
+          "to": "debt-instruments", 
+          "gap": "",
+          "submenu": false,
+          "submenuItems": null
+        }
+      ],
+      "to": "#",
+      "gap": "" 
+    },
+    { 
+      "id": "04", 
+      "title": "ทองคำ", 
+      "icon": "gold-bars-a-icon.png",
+      "icon_active": "gold-bars-w-icon.png", 
+      "to": "gold", 
+      "gap": "",
+      "submenu": false,
+      "submenuItems": null
+    },
+    { 
+      "id": "05", 
+      "title": "ดัชนีเศรษฐกิจ", 
+      "icon": "economy-a-icon.png",
+      "icon_active": "economy-w-icon.png", 
+      "to": "economic-index", 
+      "gap": "",
+      "submenu": false,
+      "submenuItems": null
+    }
+]
+  
